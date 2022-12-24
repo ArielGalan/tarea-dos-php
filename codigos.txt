@@ -1,0 +1,14 @@
+CREATE DATABASE bd_miempresa;
+-----------------------------------
+CREATE TABLE tb_empleado
+    (id_person int PRIMARY KEY NOT NULL,
+    nombre varchar(25) NOT NULL,
+    apellidos varchar(25) NOT NULL,   
+     edad int NOT NULL);
+-----------------------------------
+INSERT INTO `tb_empleado` (`id_person`, `nombre`, `apellidos`, `edad`)
+ VALUES
+(1, 'carolina', 'Gomez del pozo', 37),
+(2, 'Estefania', 'morales HonHon', 35),
+(3, 'Luna', 'Morales', 18),
+(4, 'Luis', 'Del Moran', 42);
